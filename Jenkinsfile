@@ -42,6 +42,6 @@ node {
 	//sh echo "Enter the docker lattest imageID"
 	//sh "read imageid"
 	   sh "docker tag 24cf320b5e07 rushwanthd/jenkins" //must change your name and tag no
-        sh "docker push   vickeyyvickey/myapplication"
+        sh "docker push   rushwanthd/jenkins"
   }
 }
